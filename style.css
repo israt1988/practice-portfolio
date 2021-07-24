@@ -11,7 +11,7 @@ padding-left: 40px;
 padding-top: 40px;
 
 }
- section{ 
+ .flaxible-container{ 
 display: flex;
 
 }
@@ -35,4 +35,25 @@ margin: 50px;
     background-repeat: no-repeat;
     background-position: right; 
     margin-top: 50px;
+}
+.experienc{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+
+}
+h1{
+   padding-left: 80px; 
+}
+.inline-box{
+    width: 40%;
+    margin: 5%;
+    box-shadow: 25px 25px 40px green;
+    padding: 30px;
+   
+}
+#blue{
+    border-left: 10px solid rgb(9, 7, 122);   
+}
+#orange-id{
+    border-left: 10px solid rgb(216, 70, 17);
 }
