@@ -1,0 +1,32 @@
+body{
+    font-family: 'Goblin One', cursive;
+    margin: 0px;
+}
+.purple-color{
+    color: purple;
+}
+.half-width{
+width: 50%;
+padding-left: 40px;
+padding-top: 40px;
+
+}
+ section{ 
+display: flex;
+
+}
+.top-banner{
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+}
+ .half-width img{  /*half -width er vitor je image ace tar size thik kora hoyeche1*/
+width: 80%;
+margin: 50px;
+}
+.link-button{
+    text-decoration: none;
+   /*  background-color: indianred;*/ 
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(red, orange) ;
+}
