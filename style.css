@@ -52,8 +52,19 @@ h1{
    
 }
 #blue{
-    border-left: 10px solid rgb(9, 7, 122);   
+    border-left: 10px solid;  
+   border-image: linear-gradient(rgb(0, 255, 0), rgb(228, 235, 135)); 
+   border-image-slice: 4;
 }
 #orange-id{
-    border-left: 10px solid rgb(216, 70, 17);
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+footer p{
+   text-align: center; 
+   font-style: italic;
+   font-size: small;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration-color: darkviolet;
 }
